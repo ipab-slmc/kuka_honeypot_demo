@@ -12,7 +12,7 @@ class demo:
     def __init__(self):
         self.jointState = None
         self.bowlPosition = [0.7,0.0,0.15]
-        self.radius = 0.715
+        self.radius = 0.15
         self.lowStiffness = [1,1,1,1,1,1,1]
         self.highStiffness = [50,50,50,50,50,80,10]
 
