@@ -1,0 +1,8 @@
+<launch>
+	
+  <param name="robot_description" textfile="$(find kuka_honeypot_demo)/resources/spoon.urdf" />
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" />
+  <node pkg="kuka_honeypot_demo" type="honeypot_demo.py" name="honeypot_demo" output="screen"/>
+  
+</launch>
+
